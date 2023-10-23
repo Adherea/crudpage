@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-image: linear-gradient(to left bottom, #3737d6, #dd3ddd);
+  height: 120%;
+  padding-top: 60px;
+}
+.container .tampil {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  margin-top: 200px;
+  padding: 2.7rem 3.2rem;
+  margin: 0 auto;
+  box-shadow: 0 30px 100px 5px #56ac99;
+  font-size: 22px;
+  height: auto;
+  width: 1700px;
+  background-color: #fff;
+}
+.container .tampil .tambah {
+  background-color: #57be57;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 2.1rem 0;
+  transition: 0.3s linear;
+}
+.container .tampil .tambah:hover {
+  background-color: #616ee4;
+  cursor: pointer;
+}
+.container .tampil table tr td {
+  border-bottom: 1px solid gray;
+  padding: 10px 10px;
+  text-align: center;
+}
+.container .tampil table tr td #print {
+  color: #fff;
+}
+.container .tampil table tr td #quit {
+  color: #fff;
+}
+.container .tampil table tr th {
+  background-color: #6eb1b1;
+  color: #fff;
+  padding: 10px 50px;
+}
+.container .tampil table .keluar {
+  padding: 20px 10px;
+  background-color: #9318cc;
+}
+.container .tampil table .printData button {
+  padding: 10px 20px;
+  background-color: #808080;
+  border: none;
+}
+.container .tampil table .printData td {
+  border-bottom: none;
+}
+.container .tampil .datanya .update {
+  background-color: #3c8bc0;
+  color: #fff;
+  margin: 20px 10px;
+  padding: 4px 10px;
+  border-radius: 0.4rem;
+  transition: 0.3s linear;
+}
+.container .tampil .datanya .update:hover {
+  cursor: pointer;
+  background-color: #57be57;
+}
+.container .tampil .datanya .delete {
+  transition: 0.3s linear;
+  background-color: #f54b3f;
+  color: #fff;
+  margin: 10px 10px;
+  padding: 0 10px;
+  border-radius: 0.4rem;
+}
+.container .tampil .datanya .delete:hover {
+  cursor: pointer;
+  background-color: #e7948e;
+}
+
+.create {
+  background-image: linear-gradient(to left bottom, #83dfdf, #57be57);
+  height: 130vh;
+  padding-top: 30px;
+}
+.create .createPage {
+  width: 800px;
+  background-color: #fff;
+  margin: 0 auto;
+  font-size: 20px;
+  border-radius: 0.6rem;
+  box-shadow: 0 30px 100px 5px #18ecbe;
+}
+.create .createPage h2 {
+  background-color: #57be57;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.create .createPage p {
+  margin-top: 10px;
+}
+.create .createPage h2,
+.create .createPage p {
+  text-align: center;
+}
+.create .createPage .form table {
+  padding: 40px 30px;
+}
+.create .createPage .form table tr {
+  display: flex;
+  flex-direction: column;
+}
+.create .createPage .form table tr .gambar {
+  width: 200px;
+}
+.create .createPage .form table tr td {
+  margin: 4px 0;
+}
+.create .createPage .form table tr textarea {
+  width: 700px;
+  height: 100px;
+}
+.create .createPage .form table tr select {
+  font-size: 17px;
+  width: 200px;
+}
+.create .createPage .form table tr input {
+  border-radius: 0.6rem;
+  font-size: 15px;
+  width: 660px;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: 1px solid gray;
+}
+.create .createPage .form table tr .aksi {
+  display: flex;
+  justify-content: space-between;
+}
+.create .createPage .form table tr button,
+.create .createPage .form table tr #home {
+  font-size: 30px;
+  padding: 0.5rem 1.4rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.6rem;
+}
+.create .createPage .form table tr .simpan {
+  background-color: #57be57;
+  transition: 0.3s linear;
+}
+.create .createPage .form table tr .simpan:hover {
+  background-color: #77f577;
+  cursor: pointer;
+}
+.create .createPage .form table tr .reset {
+  background-color: #d5f75d;
+  transition: 0.3s linear;
+}
+.create .createPage .form table tr .reset:hover {
+  background-color: #a2bb4a;
+  cursor: pointer;
+}
+.create .createPage .form table tr #home {
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.3s linear;
+  background-color: #181bcc;
+}
+.create .createPage .form table tr #home:hover {
+  background-color: #3c8bc0;
+  cursor: pointer;
+}
+
+.edit {
+  background-image: linear-gradient(to right bottom, #f72f93, #c2c050);
+  height: 130vh;
+  padding-top: 30px;
+}
+.edit .updateData {
+  width: 810px;
+  background-color: #fff;
+  margin: 0 auto;
+  font-size: 20px;
+  border-radius: 0.6rem;
+  box-shadow: 0 30px 100px 5px #f72f93;
+}
+.edit .updateData h2 {
+  color: #fff;
+  text-align: center;
+  background-color: #f7d92f;
+}
+.edit .updateData .form table {
+  padding: 40px 30px;
+}
+.edit .updateData .form table tr {
+  display: flex;
+  flex-direction: column;
+}
+.edit .updateData .form table tr td {
+  margin: 4px 0;
+}
+.edit .updateData .form table tr textarea {
+  width: 700px;
+  height: 100px;
+  padding: 10px 20px;
+}
+.edit .updateData .form table tr select {
+  font-size: 17px;
+  width: 200px;
+}
+.edit .updateData .form table tr input {
+  border-radius: 0.6rem;
+  font-size: 15px;
+  width: 700px;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border: 1px solid gray;
+}
+.edit .updateData .form table tr .aksi {
+  display: flex;
+  justify-content: space-between;
+}
+.edit .updateData .form table tr button,
+.edit .updateData .form table tr #home {
+  font-size: 30px;
+  padding: 0.5rem 1.4rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.6rem;
+}
+.edit .updateData .form table tr .simpan {
+  background-color: #57be57;
+  transition: 0.3s linear;
+}
+.edit .updateData .form table tr .simpan:hover {
+  background-color: #77f577;
+  cursor: pointer;
+}
+.edit .updateData .form table tr .reset {
+  background-color: #d5f75d;
+  transition: 0.3s linear;
+}
+.edit .updateData .form table tr .reset:hover {
+  background-color: #a2bb4a;
+  cursor: pointer;
+}
+.edit .updateData .form table tr #home {
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.3s linear;
+  background-color: #181bcc;
+}
+.edit .updateData .form table tr #home:hover {
+  background-color: #3c8bc0;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

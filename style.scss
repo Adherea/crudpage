@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  // overflow-y: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-image: linear-gradient(to left bottom, #3737d6, #dd3ddd);
+  height: 120%;
+  padding-top: 60px;
+
+  .tampil {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-top: 200px;
+    padding: 2.7rem 3.2rem;
+    margin: 0 auto;
+    box-shadow: 0 30px 100px 5px #56ac99;
+    font-size: 22px;
+    height: auto;
+    width: 1700px;
+    background-color: #fff;
+
+    .tambah {
+      background-color: #57be57;
+      color: #fff;
+      border-radius: 10px;
+      padding: 10px 20px;
+      margin: 2.1rem 0;
+      transition: 0.3s linear;
+    }
+    .tambah:hover {
+      background-color: #616ee4;
+      cursor: pointer;
+    }
+
+    table {
+      tr {
+        td {
+          border-bottom: 1px solid gray;
+          padding: 10px 10px;
+          text-align: center;
+          #print {
+            color: #fff;
+          }
+          #quit {
+            color: #fff;
+          }
+        }
+        th {
+          background-color: #6eb1b1;
+          color: #fff;
+          padding: 10px 50px;
+        }
+      }
+      .keluar {
+        padding: 20px 10px;
+        background-color: #9318cc;
+      }
+      .printData {
+        button {
+          padding: 10px 20px;
+          background-color: #808080;
+          border: none;
+        }
+        td {
+          border-bottom: none;
+        }
+      }
+    }
+    .datanya {
+      .update {
+        background-color: #3c8bc0;
+        color: #fff;
+        margin: 20px 10px;
+        padding: 4px 10px;
+        border-radius: 0.4rem;
+        transition: 0.3s linear;
+      }
+
+      .update:hover {
+        cursor: pointer;
+        background-color: #57be57;
+      }
+
+      .delete {
+        transition: 0.3s linear;
+        background-color: #f54b3f;
+        color: #fff;
+        margin: 10px 10px;
+        padding: 0 10px;
+        border-radius: 0.4rem;
+      }
+      .delete:hover {
+        cursor: pointer;
+        background-color: #e7948e;
+      }
+    }
+  }
+}
+
+//untuk bagian create page
+
+.create {
+  background-image: linear-gradient(to left bottom, #83dfdf, #57be57);
+  height: 130vh;
+  padding-top: 30px;
+  .createPage {
+    width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+    font-size: 20px;
+    border-radius: 0.6rem;
+    box-shadow: 0 30px 100px 5px #18ecbe;
+    h2 {
+      background-color: #57be57;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-top: 10px;
+    }
+    h2,
+    p {
+      text-align: center;
+    }
+    .form {
+      table {
+        padding: 40px 30px;
+
+        tr {
+          display: flex;
+          flex-direction: column;
+          .gambar {
+            width: 200px;
+          }
+          td {
+            margin: 4px 0;
+          }
+          textarea {
+            width: 700px;
+            height: 100px;
+          }
+          select {
+            font-size: 17px;
+            width: 200px;
+          }
+          input {
+            border-radius: 0.6rem;
+            font-size: 15px;
+            width: 660px;
+            margin: 10px 0;
+            padding: 10px 20px;
+            border: 1px solid gray;
+          }
+          .aksi {
+            display: flex;
+            justify-content: space-between;
+          }
+
+          button,
+          #home {
+            font-size: 30px;
+            padding: 0.5rem 1.4rem;
+            color: #fff;
+            border: none;
+            border-radius: 0.6rem;
+          }
+
+          .simpan {
+            background-color: #57be57;
+            transition: 0.3s linear;
+          }
+
+          .simpan:hover {
+            background-color: #77f577;
+            cursor: pointer;
+          }
+
+          .reset {
+            background-color: #d5f75d;
+            transition: 0.3s linear;
+          }
+
+          .reset:hover {
+            background-color: #a2bb4a;
+            cursor: pointer;
+          }
+
+          #home {
+            margin-top: 20px;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            text-align: center;
+            transition: 0.3s linear;
+            background-color: #181bcc;
+          }
+          #home:hover {
+            background-color: #3c8bc0;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+//untuk bagian update page
+
+.edit {
+  background-image: linear-gradient(to right bottom, #f72f93, #c2c050);
+  height: 130vh;
+  padding-top: 30px;
+  .updateData {
+    width: 810px;
+    background-color: #fff;
+    margin: 0 auto;
+    font-size: 20px;
+    border-radius: 0.6rem;
+    box-shadow: 0 30px 100px 5px #f72f93;
+    h2 {
+      color: #fff;
+      text-align: center;
+      background-color: #f7d92f;
+    }
+    .form {
+      table {
+        padding: 40px 30px;
+        tr {
+          display: flex;
+          flex-direction: column;
+          td {
+            margin: 4px 0;
+          }
+          textarea {
+            width: 700px;
+            height: 100px;
+            padding: 10px 20px;
+          }
+          select {
+            font-size: 17px;
+            width: 200px;
+          }
+          input {
+            border-radius: 0.6rem;
+            font-size: 15px;
+            width: 700px;
+            margin: 10px 0;
+            padding: 10px 20px;
+            border: 1px solid gray;
+          }
+          .aksi {
+            display: flex;
+            justify-content: space-between;
+          }
+
+          button,
+          #home {
+            font-size: 30px;
+            padding: 0.5rem 1.4rem;
+            color: #fff;
+            border: none;
+            border-radius: 0.6rem;
+          }
+
+          .simpan {
+            background-color: #57be57;
+            transition: 0.3s linear;
+          }
+
+          .simpan:hover {
+            background-color: #77f577;
+            cursor: pointer;
+          }
+
+          .reset {
+            background-color: #d5f75d;
+            transition: 0.3s linear;
+          }
+
+          .reset:hover {
+            background-color: #a2bb4a;
+            cursor: pointer;
+          }
+
+          #home {
+            margin-top: 20px;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            text-align: center;
+            transition: 0.3s linear;
+            background-color: #181bcc;
+          }
+          #home:hover {
+            background-color: #3c8bc0;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
